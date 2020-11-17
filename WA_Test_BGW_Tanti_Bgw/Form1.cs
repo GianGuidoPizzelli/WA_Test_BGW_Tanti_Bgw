@@ -71,10 +71,10 @@ namespace WA_Test_BGW_Tanti_Bgw
 
             e.Result = (true, tb);
         }
-        // commento
+        // Deve essere accessibile globalmente
+        List<BackgroundWorker> bgw_list = new List<BackgroundWorker>();
         private void btAvvio100_Click(object sender, EventArgs e)
         {
-            List<BackgroundWorker> bgw_list = new List<BackgroundWorker>();
 
             for (int i = 0; i < 100; i++)
             {
