@@ -93,13 +93,13 @@ namespace WA_Test_BGW_Tanti_Bgw
             }
         }
 
-        //private void btStop100_Click(object sender, EventArgs e)
-        //{
-        //    foreach (var bgw in bgw_list)
-        //    {
-        //        bgw.CancelAsync();
-        //    }
-        //}
+        private void btStop100_Click(object sender, EventArgs e)
+        {
+            foreach (var bgw in bgw_list)
+            {
+                bgw.CancelAsync();
+            }
+        }
 
         private void btStop2_Click(object sender, EventArgs e)
         {
